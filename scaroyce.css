@@ -1,0 +1,327 @@
+.body {
+  background-image: url('https://64.media.tumblr.com/a5d48d63b342fb7b5b0ed556d89bfbd9/0fb2249f70bd9ca0-28/s540x810/b535e914c82a2f7652cd45915bf772e8352fd7a1.gif');
+}
+
+#jasonWrapper {
+  position: fixed;
+  overflow-y: scroll;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  color: red;
+}
+
+#magbayimg {
+   position: absolute;
+   left: 50%;
+   right: 50%;
+   width: 400px;
+   height: 600px;
+   margin-top: 0px;
+   margin-left: -200px;
+}
+  
+#sasamiimg {
+   position: absolute;
+   left: 50%;
+   right: 50%;
+   width: 600px;
+   height: 400px;
+   margin-top: 540px;
+   margin-left: -300px;
+}
+  
+  #chalktalkimg {
+   position: absolute;
+   left: 50%;
+   right: 50%;
+   width: 400px;
+   height: 600px;
+   margin-top: 890px;
+   margin-left: -200px;
+   padding-bottom: 25px;
+  }
+
+/* .magbayhover:hover figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-size: 30px;
+}
+
+.magbayhover:hover::before,
+.magbayhover:hover::after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.magbayhover:hover > img {
+  opacity: 0.7;
+}
+
+.magbayhover:hover figcaption {
+  opacity: 1;
+} */
+
+.magbayhover:hover {
+  opacity: 0.7;
+}
+
+.sasamihover:hover {
+  opacity: 0.7;
+}
+
+.cthover:hover {
+  opacity: 0.7;
+}
+
+#hometitle {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  background-image: url('https://cdn.dribbble.com/users/4025749/screenshots/7319596/media/e8e15b54c947cdc39e9abe93a9080e73.gif');
+  background-position: 0px 200px;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  margin-left: 330px;
+  margin-right: 330px;
+}
+
+#rsvp1 {
+  size: 20px;
+  position: absolute;
+  overflow: hidden;
+  left: 120px;
+  top: 190px;
+}
+
+#rsvp2 {
+  size: 20px;
+  position: absolute;
+  overflow: hidden;
+  right: 100px;
+  top: 1900px;
+}
+
+#key {
+  position: absolute;
+  right: 170px;
+  top: 570px;
+}
+
+#mblogo {
+  position: absolute;
+  left: 220px;
+  top: 380px;
+}
+
+#slogoimg {
+  position: absolute;
+  background-color: rgb(105, 138, 164);
+  height: 70px;
+  width: 170px;
+  text-align: right;
+  right: 210px;
+  top: 1050px;
+}
+
+#ctlogoimg {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  left: 280px;
+  top: 1575px;
+}
+
+#textline1 {
+  padding-bottom: 80px;
+}
+
+#textline1img {
+  position: absolute;
+  overflow: hidden;
+  left: 35%;
+  right: 35%;
+  width: 800px;
+  height: auto;
+  margin-top: 475px;
+  margin-left: -200px;
+}
+
+#textline2img {
+  position: absolute;
+  overflow: hidden;
+  left: 35%;
+  right: 35%;
+  width: 800px;
+  height: auto;
+  margin-top: 805px;
+  margin-left: -200px;
+}
+
+#secrets {
+  color: yellow;
+  text-align: center;
+  font-size: 20px;
+}
+
+#secretstitle {
+  color: aqua;
+  text-align: center;
+  font-size: 40px;
+}
+
+#loveseat {
+  position: sticky;
+  text-align: right;
+  margin-top: 0px;
+}
+
+#audiotxt {
+  position: sticky;
+  color: yellow;
+  size: 15px;
+}
+
+#audio {
+  position: sticky;
+  width: 200px;
+  height: 50px;
+}
+
+#scalogo {
+  position: absolute;
+  text-align: center;
+  margin-left: 930px;
+  top: 300px;
+  height: 340px;
+  width: 340px;
+}
+
+#vw1 {
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  top: 350px;
+  right: 15px;
+}
+
+#vw2 {
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  top: 350px;
+  right: 165px;
+}
+
+#vw3 {
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  top: 350px;
+  right: 315px;
+}
+
+#atom {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  right: 50px;
+  top: 1300px;
+}
+
+#star1 {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  left: 70px;
+  top: 875px;
+}
+
+/* #star2 {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  right: 70px;
+  top: 0px;
+} */
+
+/* #light {
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  left: 0px;
+  top: 1400px;
+} */
+
+/* #fire {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  left: 175px;
+  top: 1700px;
+} */
+
+#phone {
+  position: absolute;
+  height: 110px;
+  width: 100px;
+  right: 300px;
+  top: 1500px;
+  transform: rotate(20deg);
+}
+
+#key2 {
+  position: absolute;
+  top: 1150px;
+  left: 125px;
+}
+
+.secrets {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#even {
+  text-align: center;
+  color: yellow;
+}
+
+#odd {
+  text-align: center;
+  color: lavender;
+}
+
+#blurb {
+  text-align: left;
+  font-size: 22px;
+  margin-left: 200px;
+  margin-right: 500px;
+  color: yellow;
+}
+
+#applink {
+  color: aqua;
+}
