@@ -197,21 +197,21 @@ a:hover {
   position: sticky;
   text-align: right;
   margin-top: 0px;
-  margin-right: -100px
+  margin-left: 100px;
 }
 
 #audiotxt {
   position: sticky;
   color: yellow;
   size: 15px;
-  margin-right: -100px
+  margin-left: 100px;
 }
 
 #audio {
   position: sticky;
   width: 200px;
   height: 50px;
-  margin-right: -100px
+  margin-left: 100px;
 }
 
 #scalogo {
